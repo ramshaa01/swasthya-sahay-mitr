@@ -1,0 +1,6 @@
+name,cv_accuracy,cv_accuracy_std,cv_roc_auc,test_accuracy,test_roc_auc
+Diabetes (XGBoost),0.7461,0.0019,0.8256,0.704,0.8017
+Hypertension (Logistic Regression),0.7188,0.0016,0.7892,0.7227,0.7933
+Heart Disease (Random Forest),0.5951,0.0152,0.6713,0.6557,0.7408
+Obesity (Gradient Boosting),0.9964,0.0027,0.9994,0.9953,0.9996
+Stress (Decision Tree),0.9733,0.0226,0.9861,0.9467,0.9286
