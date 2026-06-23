@@ -134,7 +134,7 @@ df['CALC'] = df['CALC'].map(calc_map)
 df = pd.get_dummies(df, columns=['MTRANS'])
 mtrans_cols = [c for c in df.columns if c.startswith('MTRANS_')]
 
-feature_cols = ['Gender', 'Age', 'Height', 'Weight', 'BMI',
+feature_cols = ['Gender', 'Age', 
                 'family_history_with_overweight', 'FAVC', 'FCVC',
                 'NCP', 'CAEC', 'SMOKE', 'CH2O', 'SCC', 'FAF',
                 'TUE', 'CALC'] + mtrans_cols
