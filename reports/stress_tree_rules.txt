@@ -1,0 +1,25 @@
+|--- Gender <= 0.50
+|   |--- Quality of Sleep <= 6.50
+|   |   |--- class: 1
+|   |--- Quality of Sleep >  6.50
+|   |   |--- Quality of Sleep <= 7.50
+|   |   |   |--- systolic_bp <= 132.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- systolic_bp >  132.50
+|   |   |   |   |--- class: 0
+|   |   |--- Quality of Sleep >  7.50
+|   |   |   |--- Physical Activity Level <= 57.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- Physical Activity Level >  57.50
+|   |   |   |   |--- class: 0
+|--- Gender >  0.50
+|   |--- Quality of Sleep <= 8.50
+|   |   |--- Quality of Sleep <= 7.50
+|   |   |   |--- class: 1
+|   |   |--- Quality of Sleep >  7.50
+|   |   |   |--- systolic_bp <= 127.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- systolic_bp >  127.50
+|   |   |   |   |--- class: 1
+|   |--- Quality of Sleep >  8.50
+|   |   |--- class: 0
