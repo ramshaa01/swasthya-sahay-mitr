@@ -1,0 +1,6 @@
+condition,model,test_accuracy,test_roc_auc
+diabetes,XGBoost,0.7077,0.7985
+hypertension,Logistic Regression,0.717,0.7933
+heart,Random Forest,0.6721,0.7121
+obesity,Gradient Boosting,0.9291,0.969
+stress,Decision Tree,0.9867,0.9954

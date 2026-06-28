@@ -1,0 +1,6 @@
+condition,top_feature_1,top_feature_2,top_feature_3,top_shap_1,top_shap_2,top_shap_3
+diabetes,GenHlth,Age,BMI,0.6298999786376953,0.43709999322891235,0.4065000116825104
+hypertension,Age,HighChol,GenHlth,0.5712,0.3895,0.3863
+heart,sex,age,chol,0.138,0.1319,0.0578
+obesity,family_history_with_overweight,Age,CAEC,1.1978,1.1019,0.7168
+stress,Quality of Sleep,Gender,systolic_bp,0.2842,0.2356,0.0597
